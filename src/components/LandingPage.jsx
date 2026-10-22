@@ -59,7 +59,8 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
               <FiPhoneCall size={24} /> Call to Book Now
             </a>
             <div className={styles.location}>
-              <FiMapPin /> Gana Street, Abuja
+              <FiMapPin /> Plot 44, Bol Pharmgate Plaza, Gana Street, Maitama,
+              Abuja
             </div>
           </div>
         </div>

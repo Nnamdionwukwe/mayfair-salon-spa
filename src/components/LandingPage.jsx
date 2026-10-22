@@ -16,6 +16,10 @@ import img3 from "../assets/nail3.jpg";
 import img4 from "../assets/hair1.jpg";
 import img5 from "../assets/hair2.jpg";
 import img6 from "../assets/hair3.jpg";
+import img7 from "../assets/braid1.jpg";
+import img8 from "../assets/braid2.jpg";
+import img9 from "../assets/braid3.jpg";
+import img10 from "../assets/braid4.jpg";
 
 const PHONE_NUMBER = "08032372161";
 const TEL_LINK = `tel:${PHONE_NUMBER}`;
@@ -111,6 +115,30 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
               <span className={styles.tag}>Premium Extensions</span>
             </div>
           </div>
+          <div className={styles.imageCard}>
+            <img src={img7} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Knotless Extensions</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img8} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Box Nraids</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img9} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Knotless Braids</span>
+            </div>
+          </div>
+          {/* <div className={styles.imageCard}>
+            <img src={img10} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Knotless Extensions</span>
+            </div>
+          </div> */}
         </div>
       </section>
 

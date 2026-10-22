@@ -118,7 +118,7 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
           <div className={styles.imageCard}>
             <img src={img7} alt="Hair Extensions" />
             <div className={styles.overlay}>
-              <span className={styles.tag}>Knotless Extensions</span>
+              <span className={styles.tag}>Knotless Braids</span>
             </div>
           </div>
           <div className={styles.imageCard}>
@@ -130,7 +130,7 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
           <div className={styles.imageCard}>
             <img src={img10} alt="Hair Extensions" />
             <div className={styles.overlay}>
-              <span className={styles.tag}>Knotless Braids</span>
+              <span className={styles.tag}>Knotless Extensions</span>
             </div>
           </div>
           {/* <div className={styles.imageCard}>

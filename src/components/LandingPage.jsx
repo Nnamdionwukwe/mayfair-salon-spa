@@ -18,8 +18,11 @@ import img5 from "../assets/hair2.jpg";
 import img6 from "../assets/hair3.jpg";
 import img7 from "../assets/braid1.jpg";
 import img8 from "../assets/braid2.jpg";
-import img9 from "../assets/braid3.jpg";
+import img9 from "../assets/msg1.jpg";
 import img10 from "../assets/braid4.jpg";
+import img11 from "../assets/msg2.jpg";
+import img12 from "../assets/msg3.jpg";
+import img13 from "../assets/msg4.jpg";
 
 const PHONE_NUMBER = "08032372161";
 const TEL_LINK = `tel:${PHONE_NUMBER}`;
@@ -133,12 +136,30 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
               <span className={styles.tag}>Knotless Extensions</span>
             </div>
           </div>
-          {/* <div className={styles.imageCard}>
-            <img src={img10} alt="Hair Extensions" />
+          <div className={styles.imageCard}>
+            <img src={img9} alt="Hair Extensions" />
             <div className={styles.overlay}>
-              <span className={styles.tag}>Knotless Extensions</span>
+              <span className={styles.tag}>Full Body Massage</span>
             </div>
-          </div> */}
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img11} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Facials</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img12} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Body Waxing</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img13} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Body Scrub</span>
+            </div>
+          </div>
         </div>
       </section>
 

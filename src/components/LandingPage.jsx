@@ -187,7 +187,7 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
           <div className={styles.imageCard}>
             <img src={img17} alt="Hair Extensions" />
             <div className={styles.overlay}>
-              <span className={styles.tag}>Dandruff Treating</span>
+              <span className={styles.tag}>Dandruff & Scalp Treating</span>
             </div>
           </div>
           <div className={styles.imageCard}>

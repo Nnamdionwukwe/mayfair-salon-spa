@@ -24,7 +24,11 @@ import img11 from "../assets/msg2.jpg";
 import img12 from "../assets/msg3.jpg";
 import img13 from "../assets/msg4.jpg";
 import img14 from "../assets/ped1.jpg";
-import img15 from "../assets/mani1.jpg";
+import img15 from "../assets/trm1.jpg";
+import img16 from "../assets/trm2.jpg";
+import img17 from "../assets/trm3.jpg";
+import img18 from "../assets/trm4.jpg";
+import img19 from "../assets/trm5.jpg";
 
 const PHONE_NUMBER = "08032372161";
 const TEL_LINK = `tel:${PHONE_NUMBER}`;
@@ -168,12 +172,36 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
               <span className={styles.tag}>Pedicure</span>
             </div>
           </div>
-          {/* <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <img src={img15} alt="Hair Extensions" />
             <div className={styles.overlay}>
-              <span className={styles.tag}>Body Scrub</span>
+              <span className={styles.tag}>Wig Revamping</span>
             </div>
-          </div> */}
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img16} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Wig Tint & Revamping</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img17} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Dandruff Treating</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img18} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Natural Hair Treating</span>
+            </div>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={img19} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Natural Hair Washing</span>
+            </div>
+          </div>
         </div>
       </section>
 

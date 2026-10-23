@@ -23,6 +23,8 @@ import img10 from "../assets/braid4.jpg";
 import img11 from "../assets/msg2.jpg";
 import img12 from "../assets/msg3.jpg";
 import img13 from "../assets/msg4.jpg";
+import img14 from "../assets/ped1.jpg";
+import img15 from "../assets/mani1.jpg";
 
 const PHONE_NUMBER = "08032372161";
 const TEL_LINK = `tel:${PHONE_NUMBER}`;
@@ -160,6 +162,18 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
               <span className={styles.tag}>Body Scrub</span>
             </div>
           </div>
+          <div className={styles.imageCard}>
+            <img src={img14} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Pedicure</span>
+            </div>
+          </div>
+          {/* <div className={styles.imageCard}>
+            <img src={img15} alt="Hair Extensions" />
+            <div className={styles.overlay}>
+              <span className={styles.tag}>Body Scrub</span>
+            </div>
+          </div> */}
         </div>
       </section>
 

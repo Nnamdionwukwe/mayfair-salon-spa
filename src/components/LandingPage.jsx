@@ -33,6 +33,17 @@ import img19 from "../assets/trm5.jpg";
 const PHONE_NUMBER = "08032372161";
 const TEL_LINK = `tel:${PHONE_NUMBER}`;
 
+// ✅ Google Ads conversion tracking
+const CONVERSION_SEND_TO = "AW-17687720684/ZxsXCPuIu70cEOzllPJB";
+
+const trackCallConversion = () => {
+  if (typeof window.gtag === "function") {
+    window.gtag("event", "conversion", {
+      send_to: CONVERSION_SEND_TO,
+    });
+  }
+};
+
 const LandingPage = ({ isDarkMode, toggleTheme }) => {
   return (
     <div className={styles.container}>
@@ -46,7 +57,11 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
           <button onClick={toggleTheme} className={styles.themeToggle}>
             {isDarkMode ? <FiSun /> : <FiMoon />}
           </button>
-          <a href={TEL_LINK} className={styles.navCallBtn}>
+          <a
+            href={TEL_LINK}
+            className={styles.navCallBtn}
+            onClick={trackCallConversion}
+          >
             <FiPhoneCall /> Call Now
           </a>
         </div>
@@ -68,7 +83,11 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
           </p>
 
           <div className={styles.ctaGroup}>
-            <a href={TEL_LINK} className={styles.primaryBtn}>
+            <a
+              href={TEL_LINK}
+              className={styles.primaryBtn}
+              onClick={trackCallConversion}
+            >
               <FiPhoneCall size={24} /> Call to Book Now
             </a>
             <div className={styles.location}>
@@ -212,7 +231,11 @@ const LandingPage = ({ isDarkMode, toggleTheme }) => {
             <h4>Ready for a transformation?</h4>
             <p>We are open today.</p>
           </div>
-          <a href={TEL_LINK} className={styles.stickyBtn}>
+          <a
+            href={TEL_LINK}
+            className={styles.stickyBtn}
+            onClick={trackCallConversion}
+          >
             <FiPhoneCall /> Call {PHONE_NUMBER}
           </a>
         </div>
